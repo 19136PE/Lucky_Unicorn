@@ -12,6 +12,9 @@ def yes_no(question):
             response = "no"
             return response
 
+        elif response == "creeper":
+            print("aww man")
+
         else:
             print("Invalid Input, Please answer yes / no")
 
