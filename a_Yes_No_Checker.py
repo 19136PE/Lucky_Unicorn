@@ -30,5 +30,3 @@ print("you chose {}".format(show_instrustions))
 
 if show_instrustions == "no":
  instuctions()
-
-print("programme continues")
