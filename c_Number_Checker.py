@@ -1,5 +1,5 @@
 #functions Go Here
-error = "Please Enter A Whole Number Between 1 and 10\n"
+error = "Please Enter A Whole Number Between 1 and 1000\n"
 def num_check(question, low, high):
   valid = False
   while not valid:
@@ -16,7 +16,7 @@ def num_check(question, low, high):
       print(error)
 
 #Main Routine Goes Here
-how_much = num_check("How Much Would You Like To Play With? ", 0, 10)
+how_much = num_check("How Much Would You Like To Play With? ", 0, 1000)
 
 #print exspenditure
 print("You will be spending ${}".format(how_much))
